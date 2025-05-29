@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Search Component Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+        
+        .demo-section {
+            margin: 30px 0;
+        }
+        
+        .demo-title {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Demo usage of the web component -->
+    <div style="padding: 20px;">
+        <h1>Recipe Search Web Component Demo</h1>
+        <!-- <recipe-search-app style="width: 100%; height: 2000px"></recipe-search-app> -->
+		
+		<div class="demo-section">
+            <p class="demo-title">Default Usage:</p>
+            <recipe-search-app></recipe-search-app>
+        </div>
+        
+        <div class="demo-section">
+            <p class="demo-title">Custom Sized Usage:</p>
+            <recipe-search-app style="width: 100%; height: 500px; max-width: 800px; margin: 0 auto; display: block;"></recipe-search-app>
+		</div>
+	</div>
+    </div>
+
+	<script src="recipe_search.js"></script>
+    
+</body>
+</html>

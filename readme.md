@@ -7,7 +7,6 @@ A beautiful, interactive web component for searching recipes by ingredient using
 ## ✨ Features
 
 - 🔍 **Ingredient-based recipe search** - Find recipes using any ingredient
-- 🎨 **Modern glassmorphism UI** - Beautiful, contemporary design with blur effects
 - ⚡ **Smooth animations** - Engaging transitions and hover effects
 - 📱 **Responsive design** - Works perfectly on desktop and mobile devices
 - 🍳 **Recipe details modal** - View full recipe instructions and cooking videos
@@ -190,18 +189,6 @@ The component gracefully handles:
   ]
 }
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
